@@ -1,8 +1,14 @@
+Requiments:
+open3d >= 0.9.0
+argparse
+
+Command:
+python ver0.py --init_pos 450 50 0 300 --amount 4 --data_path "YOUR_PATH"
+
 目录说明：读取点云的目录设为...\data\，下有FuXiao_1--4，4个文件夹
 
 操作说明：命令行输入4个初始帧位置，用空格隔开，
-例：
-0 1 2 3 意为初始显示FuXiao1的第0帧 FuXiao2的第1帧 FuXiao3的第2帧 FuXiao4的第3帧
+意为初始显示FuXiao1的第0帧 FuXiao2的第1帧 FuXiao3的第2帧 FuXiao4的第3帧
 之后弹出open3d窗口
 可用鼠标等默认操作进行缩放、旋转、平移，按h命令行弹出键盘说明（默认）
 利用下述按键的进行帧数切换时，命令行均会弹出对应的说明，和正在显示的文件路径信息
